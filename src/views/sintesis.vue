@@ -2,12 +2,12 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.mb-5 A continuación, se muestra un mapa conceptual con los elementos más importantes desarrollados en este componente.
+    p.mb-5(data-aos="fade-down" data-aos-duration="800") A continuación, se muestra un mapa conceptual con los elementos más importantes desarrollados en este componente.
 
-    .row.justify-content-center
+    .row.justify-content-center.p-4(style="background-color:;borde-radius:20px;")
       .col-lg-10.mb-5
-        figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
+        figure(data-aos="fade-up" data-aos-duration="900")
+          img(src="@/assets/curso/sintesis.svg", alt="La Figura 4 se denomina «Síntesis temática del componente», allí se mencionan los principales temas tratados sobre soporte técnico y atención al cliente en la reparación de equipos con la base de los protocolos, la gestión de incidentes y las herramientas de gestión.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono

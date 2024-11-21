@@ -110,7 +110,7 @@
 
 .tabs-c__content-item
   padding-top: 20px
-  background-color: #F9F7F4
+  background-color: #EBF6EA
 
 .tabs-c__header
   margin-bottom: 0
@@ -170,4 +170,21 @@
 
 @media screen and (max-width: 992px)
   .cont_1_1:before,.cont_1_2
+    background-size: cover !important
+
+/*********************Tema 1****************************/
+.cont_2_1,.cont_2_1 *
+  position: relative
+.cont_2_1:before
+  content: ''
+  position: absolute
+  width: 115%
+  height: calc(100% - 60px)
+  top: 60px
+  left: -8%
+  background-image: url(../assets/curso/tema2/7.png)
+  background-size: 100% 100%
+
+@media screen and (max-width: 992px)
+  .cont_2_1:before
     background-size: cover !important

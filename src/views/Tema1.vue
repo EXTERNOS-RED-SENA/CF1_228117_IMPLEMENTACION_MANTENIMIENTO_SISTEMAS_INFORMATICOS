@@ -64,7 +64,7 @@
                     figure
                       img(src='@/assets/curso/tema1/7.svg')
                   .col-lg-7(style="place-self:center;")
-                    p.fw-bold Recepción
+                    p.fw-bold Recepción de la solicitud.
                     p.mt-4 Registrar la petición del cliente en el sistema de soporte, asegurándose de anotar los detalles del problema descrito y la urgencia percibida. Confirmar con el cliente los datos para evitar malentendidos.
                 .row.p-4.ps-5.pe-5
                   .col-lg-5.d-none.d-lg-block

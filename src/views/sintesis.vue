@@ -10,7 +10,7 @@
     .row.justify-content-center.p-4
       .col-lg-10.mb-5
         figure(data-aos="fade-up" data-aos-duration="900")
-          img(src="@/assets/curso/sintesis.svg", alt="La Figura 4 se denomina «Síntesis temática del componente», allí se mencionan los principales temas tratados sobre soporte técnico y atención al cliente en la reparación de equipos con la base de los protocolos, la gestión de incidentes y las herramientas de gestión.")
+          img(src="@/assets/curso/sintesis.svg", alt="Se denomina «Síntesis temática del componente», allí se mencionan los principales temas tratados sobre soporte técnico y atención al cliente en la reparación de equipos con la base de los protocolos, la gestión de incidentes y las herramientas de gestión.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono
